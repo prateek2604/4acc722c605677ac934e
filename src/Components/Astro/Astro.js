@@ -50,7 +50,7 @@ const Astro = ()=>{
       }
     })
     .catch(err=>{
-      setMsg('failed to fetch')
+      setMsg('not found')
     })
   }
 
